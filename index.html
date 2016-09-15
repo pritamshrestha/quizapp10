@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Who wants to be a Millionarie</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div id="divSnow">
+<div class="container">
+<h1 class="text-center text-warning">Here is the seven questions to be the millionarie</h1>
+<img src="img/earth1.jpg" class="img-responsive img-circle pull-right" id="rotate" height="50px" width="50px">
+<img src="img/nepali.jpg" class="img-responsive img-circle pull-left" id="rotate1" height="50px" width="50px"><br><br>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <form>
+        <div class="form-group">
+          <h1 id="question0" class="text-danger"></h1>
+          <input type="text" id="answer0" class="form-control text-primary bg bg-success" placeholder="enter the answer please">
+        </div>
+        <div class="form-group">
+          <h1 id="question1" class="text-success"></h1>
+          <input type="text" id="answer1" class="form-control text-success" placeholder='enter the answer please'>
+        </div>
+        <div class="form-group">
+          <h1 id="question2" class="text-danger"></h1>
+          <input type="text" id="answer2" class="form-control text-info " placeholder='enter tne answer please'>
+        </div>
+        <div class="form-group">
+          <h1 id="question3" class="text-success"></h1>
+          <input type="text" id="answer3" class="form-control text-danger" placeholder="enter the answer please">
+        </div>
+        <div class="form-group">
+          <h1 id="question4" class="text-danger"></h1>
+          <input type="text" id="answer4" class="form-control text-warning" placeholder="enter the answer please">
+        </div>
+        <div class="form-group">
+          <h1 id="question5" class="text-success"></h1>
+          <input type="text" id="answer5" class="form-control text-primary" placeholder="enter the answer please">
+        </div>
+        <div class="form-group">
+          <h1 id="question6" class="text-danger"></h1>
+          <input type="text" id="answer6" class="form-control text-success" placeholder="enter the answer please">
+        </div>
+        <div class="form-group">
+         <button type="button" class='btn btn-danger btn-lg center-block' onclick="checkresults()">check result</button>
+        </div>
+        <!-- adding another button -->
+        
+      </form>
+    </div>
+  </div>
+  <div>
+    <h1 id="correct" class="text-center text-success">Correct:</h1>
+    <h1 id="incorrect" class="text-danger text-center">Incorrect:</h1>
+  </div>
+
+</div>
+</div>
+        <!-- this is for the jquery -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <!-- linking the bootstrap -->
+        <script src="js/bootstrap.js"></script>
+        <!-- this is for the websnow plugin -->
+        <script src="js/Websnowjq.js"></script>
+        <!-- linking the javascript file -->
+        <script src="js/main.js"></script>
+        <!-- this is for the plugin fireworks -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+        <script src="js/jquery.fireworks.js"></script>
+        <script src="js/test.js"></script>
+
+</body>
+</html>

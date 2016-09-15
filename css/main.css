@@ -1,0 +1,36 @@
+#answer0{color:red;}
+#answer1{color:black;}
+#answer2{color:pink;}
+#answer3{color:purple;}
+#answer4{color:blue;}
+#answer5{color:orange;}
+#answer6{color:gold;}
+.correct{color:black;
+         font-size:30px;}
+.incorrect{color:white;
+           font-size:30px;}
+#divSnow{
+	background-color:black;
+}
+input[type=text]{
+	background-color: yellow;
+}
+/*this is for the rotate earth*/
+#rotate{height:50px;
+       width:50px;
+       
+      -webkit-animation:spin 10s linear infinite;
+
+}
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+
+
+
+#rotate1{height:50px;
+       width:50px;
+      
+      -webkit-animation:spin 10s linear infinite;
+
+}
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+
